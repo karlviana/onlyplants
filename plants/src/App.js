@@ -17,6 +17,9 @@ function App() {
         >
           Learn React
         </a>
+        <p className='text-[#000000]'>
+          fjasfasff
+        </p>
       </header>
     </div>
   );
