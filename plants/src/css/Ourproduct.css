@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.backag1 {
+    background: #f0f0f0;
+    position: relative;
+}
+
+.backg2 {
+    background: #AEC09A;
+    position: relative;
+}

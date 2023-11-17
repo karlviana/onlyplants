@@ -4,7 +4,7 @@ import manyPlant from '../assets/manyplant.jpg'
 
 const Home = () => {
     return(
-        <div name='home' className='content w-full h-screen'>
+        <div name='home' className='content w-full min-h-screen'>
             <div className='flex justify-start pt-10 min-h-screen'>
                 <div className='max-w-[1000px] mx-20'>
                 <h1 className='text-5xl font-bold w-[400px] mx-12 px-2'>"Grow Love, Sow Kindness, Harvest Happiness."</h1>
