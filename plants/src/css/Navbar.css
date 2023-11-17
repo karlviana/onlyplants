@@ -1,0 +1,17 @@
+nav {
+    background: linear-gradient(to
+    right,
+    #EED5B9 0%,
+    #EED5B9 25%,
+    #F4E6D5 25%,
+    #F4E6D5 100%
+    );
+}
+
+input{
+   border: 1px solid #AEC670;
+}
+
+li {
+  color: #1A2902;
+}
