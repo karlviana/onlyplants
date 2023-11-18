@@ -8,9 +8,11 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
    return(
-    <nav name='navi' className='w-full h-[70px] flex justify-between items-center sticky'>
-            <h1 className='text-[#344C11] text-3xl mx-6 mt-3'>OnlyPlants?</h1>
-            <div className='flex h-8 mt-3'>
+    <nav name='navi' className='w-full h-[70px] flex justify-between items-center px-4'>
+         <div>
+            <h1 className='text-[#344C11] mt-3'>OnlyPlants?</h1>
+         </div>
+           <div className='flex h-8 mt-3 invisible md:visible'>
             <input type='text' className='bg-[#fffff] rounded-l-full' />
             <button className='bg-[#AEC670] rounded-r-full'><FaSearch size={30} className='p-2'/></button> 
            </div>
