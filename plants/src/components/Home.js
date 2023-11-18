@@ -13,7 +13,7 @@ const Home = () => {
                     <button className='bg-[#AEC670] justify-self-end w-[140px] p-2 text-lg font-thin flex rounded-md'><FaShoppingCart className='mx-3 my-1' />Get Plant</button>
                 </div>
                 </div>
-                <div className='mx-5 flex items-start'>
+                <div className='invisible lg:visible mx-5 items-start'>
                  <img src={manyPlant} alt='Many Plants' className='w-[450px] rounded-3xl'/>
                 </div>
             </div>
